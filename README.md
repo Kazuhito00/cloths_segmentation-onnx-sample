@@ -1,0 +1,1 @@
+# cloths_segmentation-onnx-sample
