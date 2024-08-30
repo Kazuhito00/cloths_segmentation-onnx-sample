@@ -8,6 +8,10 @@
 * OpenCV 4.5.3.56 or later
 * onnxruntime-gpu 1.9.0 or later <br>※onnxruntimeでも動作しますが、推論時間がかかるのでGPUをお勧めします
 
+# Convert ONNX
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kazuhito00/cloths_segmentation-onnx-sample/blob/main/Convert2ONNX.ipynb)<br>
+モデル変換を試す場合は、Colaboratoryでノートブックを開き、上から順に実行してください。<br>
+
 # Demo
 デモの実行方法は以下です。
 ```bash
@@ -45,5 +49,4 @@ python sample_onnx.py --image=sample.jpg
 cloths_segmentation-onnx-sample is under [MIT License](LICENSE).
 
 # License(Movie, Image)
-サンプル動画は[NHKクリエイティブ・ライブラリー](https://www.nhk.or.jp/archives/creative/)の[ロンドン市内 雑踏](https://www2.nhk.or.jp/archives/creative/material/view.cgi?m=D0002050318_00000)を使用しています。<br>
-サンプルの画像は[ぱくたそ](https://www.pakutaso.com/)様の[渋谷マークシティの自由通路の様子](https://www.pakutaso.com/20240529145post-51375.html)を使用しています。
+サンプルの画像は[ぱくたそ](https://www.pakutaso.com/)様の[慌てて本社に戻る部長](https://www.pakutaso.com/20240303088post-50910.html)を使用しています。
