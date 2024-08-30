@@ -36,7 +36,7 @@ python sample_onnx.py --image=sample.jpg
 ロードするモデルの格納パス<br>
 デフォルト：model/cloths_segmentation.onnx
 * --input_resize_rate<br>
-モデル入力時の画像リサイズ割合（処理時間がかかる場合、小さいサイズを指定し、精度を下げて推論速度を向上させる）<br>
+モデル入力時の画像リサイズ割合<br>※処理時間がかかる場合、小さいサイズを指定し、精度を下げて推論速度を向上させる<br>
 デフォルト：1.0
 
 # Reference
